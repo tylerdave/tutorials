@@ -37,7 +37,7 @@ setup(
     packages=find_packages(exclude=['contrib', 'docs', 'tests']),
     entry_points={
         'console_scripts':[
-            'tutorials=tutorials.cli:cli',
+            'tutorial=tutorials.cli:tutorial',
             ],
         },
     include_package_data=True,
