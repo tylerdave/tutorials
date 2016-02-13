@@ -1,13 +1,13 @@
 import click
 
 def list_lesson_ids():
-    return ["{0:3}".format(i) for i in range(10)]
+    return ["{0:03}".format(i) for i in range(10)]
 
 @click.group()
 @click.option('--status-file', type=click.Path())
 @click.option('--verbose', '-v')
 @click.pass_context
-def tutorial(ctx, status_file):
+def tutorial(ctx, status_file, verbose):
     """
     Runs a tutorial.
     """
@@ -63,6 +63,15 @@ def status(ctx):
     Show the status of the tutorial lessons.
     """
     pass
+
+@tutorial.command()
+@click.pass_context
+def list(ctx):
+    """
+    List lessons
+    """
+    # TODO: maybe change to lessons?
+
 
 if __name__ == '__main__':
     tutorial()
