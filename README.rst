@@ -2,6 +2,11 @@
 Tutorials
 ===============================
 
+*A TDD tutorial runner*
+
+* Free software: MIT license
+* Documentation: (COMING SOON!) https://tutorials.readthedocs.org.
+
 .. image:: https://img.shields.io/badge/status-pre--release-lightgrey.svg
 
 .. image:: https://img.shields.io/travis/tylerdave/tutorials.svg
@@ -10,10 +15,6 @@ Tutorials
 .. image:: https://img.shields.io/pypi/v/tutorials.svg
         :target: https://pypi.python.org/pypi/tutorials
 
-*A TDD tutorial runner*
-
-* Free software: MIT license
-* Documentation: (COMING SOON!) https://tutorials.readthedocs.org.
 
 Features
 --------
