@@ -5,7 +5,7 @@ Tutorials
 *A TDD tutorial runner*
 
 * Free software: MIT license
-* Documentation: (COMING SOON!) https://tutorials.readthedocs.org.
+* Documentation: (COMING SOON!) http://tutorial-runner.readthedocs.org/
 
 .. image:: https://img.shields.io/badge/status-pre--release-lightgrey.svg
 
