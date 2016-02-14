@@ -11,7 +11,7 @@ def tutorial(ctx, status_file, verbose):
     """
     Runs a tutorial.
     """
-    ctx.obj = {'example':'value'}
+    ctx.obj = {'verbose': verbose}
 
 @tutorial.command()
 @click.argument('lesson_id', type=click.Choice(list_lesson_ids()))
