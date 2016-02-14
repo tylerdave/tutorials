@@ -32,5 +32,6 @@ Usage
 -----
 
 .. code::
+
   tutorial --help
 
