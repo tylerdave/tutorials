@@ -1,0 +1,16 @@
+name: A tutorial
+runner: pytest
+runner_args:
+    - '-v'
+    - '-x'
+
+# add lessons here
+lessons:
+    '001':
+        name: Hello, World!
+        file_base: hello_world
+    '002':
+        name: Basic options
+        file_base: basic_options
+
+

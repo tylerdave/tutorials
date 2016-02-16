@@ -1,3 +1,5 @@
 click==6.2
 colorama==0.3.6
-PyYAML==3.11
+ruamel.base==1.0.0
+ruamel.ordereddict==0.4.9
+ruamel.yaml==0.10.20

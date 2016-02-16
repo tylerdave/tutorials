@@ -1,5 +1,7 @@
 import click
 
+from . import tutorials
+
 def list_lesson_ids():
     return ["{0:03}".format(i) for i in range(10)]
 
