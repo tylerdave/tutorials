@@ -6,6 +6,7 @@ def list_lesson_ids():
     return ["{0:03}".format(i) for i in range(10)]
 
 @click.group()
+@click.option('--tutorial-dir', type=click.Path(exists=True, file_okay=False))
 @click.option('--status-file', type=click.Path())
 @click.option('--verbose', '-v')
 @click.pass_context
