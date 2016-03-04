@@ -1,0 +1,15 @@
+name: Example Tutorial
+test_dir: tutorial_tests
+solution_dir: solutions
+
+lessons:
+    '001':
+        title: Hello, World!
+        test: hello_world.py
+        solution: hello_world.py
+    '002':
+        title: More Complex
+        test: more_complex.py
+        solution:
+            - more_complex.py
+            - something_else.py
